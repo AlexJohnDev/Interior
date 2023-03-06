@@ -1,0 +1,128 @@
+.header-headline,
+.header-headline-two {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    padding: 30px 20px;
+    @media (max-width: 850px) {
+        font-size: 40px;
+    }
+}
+
+.header-headline {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.header-headline-two {
+    @media (min-width: 768px) {
+        display: none;
+    }
+    @media (max-width: 500px) {
+        font-size: 24px;
+    }
+}
+
+.header-secondary-headline {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.paragraph-light-text {
+    font-size: 11px;
+    color: rgb(177, 177, 177);
+    line-height: 20px;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 50%;
+    @media (max-width: 767px) {
+        line-height: 20px;
+        width: 80%;
+    }
+}
+
+.page-title {
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.page-subheading {
+    width: 75%;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.img-header-text {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.price-text {
+    font-size: 11px;
+    color: $gold;
+    font-weight: 600;
+}
+
+.white-text-header {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.white-text {
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+}
+
+.footer-text-header {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-size: 10px;
+    line-height: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.blog-title {
+    font-size: 24px;
+    color: rgb(189, 189, 189);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.blog-info {
+    font-size: 10px;
+    color: rgb(201, 201, 201);
+}
+
+.light-text-small {
+    color: #BEC0C7;
+    font-size: 12px;
+    line-height: 20px;
+}

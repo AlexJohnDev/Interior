@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.wrapper {
+    padding: 0 40px;
+    @media (max-width: 767px) {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.041)), url('/images/2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    @media (max-width: 800px) {
+        height: 700px;;
+    }
+}
+

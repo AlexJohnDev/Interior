@@ -1,0 +1,30 @@
+.catalog {
+    padding: 40px 0;
+}
+
+.banner-two {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+    justify-content: center;
+    height: 100%;
+    background-image: url('/images/11.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+      top: 0;
+      left: 0;
+      clear: float;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.384);
+      color: #ffffff;
+}

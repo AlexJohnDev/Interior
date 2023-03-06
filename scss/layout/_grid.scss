@@ -1,0 +1,33 @@
+.grid-1 {
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    justify-content: center;
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.banner-one-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.footer-gallery-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
